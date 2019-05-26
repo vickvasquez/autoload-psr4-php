@@ -1,0 +1,19 @@
+{
+    "name": "vickvasquez/psr4php",
+    "description": "A simple example of autoloading with psr-4",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Vick Vasquez",
+            "email": "vasjvic44@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "Crons\\": "Crons/"
+
+        }
+    },
+    "require": {}
+}
